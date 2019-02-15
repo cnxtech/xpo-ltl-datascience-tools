@@ -5,7 +5,7 @@
 Say you're running a new container/server/VM instance and you need a working Python 3 distribution with your normal ML/DS tools. Instead of installing everything manually, you can run this.
 
 ```
-$ curl -L https://git.io/fh7HO | bash -n [env_name]
+$ curl -L https://git.io/fh5kg | bash -n [env_name]
 
 ```
 
