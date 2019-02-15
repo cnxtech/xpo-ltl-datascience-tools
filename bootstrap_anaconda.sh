@@ -21,7 +21,8 @@ fi
 wget https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh -O anaconda.sh
 bash anaconda.sh -b 
 source ~/.bashrc
-conda create -n -y $ENV_NAME
-
+# Get our base config
+wget https://git.io/fh7Hs -O environment.yml
+conda env create -y -n $ENV_NAME -f environment.yml
 
 echo $ENV_NAME
