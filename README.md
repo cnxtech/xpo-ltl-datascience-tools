@@ -12,6 +12,7 @@ $ curl -L https://git.io/fh5kg | bash -s -- -n [env_name]
 This will install the latest version of Miniconda3 and a set of baseline packages including the following:
 
 ```
+
 - pip
 - numpy
 - scikit-learn
@@ -23,5 +24,8 @@ This will install the latest version of Miniconda3 and a set of baseline package
 - tensorflow
 - theano
 - pyodbc
+- ipython
+- pip:
+  - ipykernel
 ```
 It will also use `ipykernel` to register your environment for use with jupyterhub as well. Currently only works with Linux distros.
