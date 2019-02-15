@@ -22,7 +22,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O mi
 bash miniconda3.sh -b
 
 # Update and get our base config
-conda update -n base -c defaults conda -y
+~/miniconda3/bin/conda update -n base -c defaults conda -y
 ~/miniconda3/bin/conda init bash
 source ~/.bashrc
 
