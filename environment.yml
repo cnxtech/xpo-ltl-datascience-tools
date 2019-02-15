@@ -14,5 +14,10 @@ dependencies:
 - theano
 - pyodbc
 - ipython
+- statsmodels
+- falcon
+- flask
+- nltk
+- spacy
 - pip:
   - ipykernel
