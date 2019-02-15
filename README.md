@@ -23,5 +23,10 @@ This will install the latest version of Miniconda3 and a set of baseline package
 - tensorflow
 - theano
 - pyodbc
+- statsmodels
+- falcon
+- flask
+- nltk
+- spacy
 ```
 It will also use `ipykernel` to register your environment for use with jupyterhub as well. Currently only works with Linux distros.
