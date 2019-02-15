@@ -18,8 +18,8 @@ then
 fi
 
 # Install conda and set up base environment
-#wget https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh -O anaconda.sh
-bash anaconda.sh -b 
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda3.sh
+bash miniconda3.sh -b 
 source ~/.bashrc
 # Get our base config
 wget https://git.io/fh7Hs -O environment.yml
