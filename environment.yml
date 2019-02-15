@@ -1,7 +1,6 @@
 channels:
 - defaults
 - conda-forge
-# Start with Python and include everything you need
 dependencies:
 - pip
 - numpy
@@ -14,3 +13,6 @@ dependencies:
 - tensorflow
 - theano
 - pyodbc
+- ipython
+- pip:
+  - ipykernel
