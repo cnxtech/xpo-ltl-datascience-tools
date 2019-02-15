@@ -3,7 +3,7 @@ channels:
 - conda-forge
 # Start with Python and include everything you need
 dependencies:
-- python=3.7
+- python=3
 - pip
 - numpy
 - scikit-learn
