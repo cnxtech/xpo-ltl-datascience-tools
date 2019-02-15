@@ -1,0 +1,17 @@
+channels:
+- defaults
+- conda-forge
+# Start with Python and include everything you need
+dependencies:
+- python=3
+- pip
+- numpy
+- scikit-learn
+- pandas
+- scipy
+- elasticsearch
+- matplotlib
+- keras
+- tensorflow
+- theano
+- pyodbc
